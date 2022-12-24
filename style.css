@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: linear-gradient(to left, #4f46e5, #9f2be4);
+}
+.content {
+  background-color: white;
+  max-width: 300px;
+  margin: 150px auto;
+}
+.content input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+}
+
+ul > li {
+  list-style: none;
+  border: 1px solid #eee;
+  padding: 5px;
+}
+
+ul > li:hover {
+  background-color: #eee;
+}
